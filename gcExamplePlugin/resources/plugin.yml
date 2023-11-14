@@ -1,0 +1,9 @@
+Plugin Name: ${project.name}
+Plugin Version: ${project.version}
+Commit: ${git.commit.id}
+Server Main: com.growcontrol.plugins.example.server.gcExamplePlugin_Server
+Client Main: com.growcontrol.plugins.example.client.gcExamplePlugin_Client
+Author: lorenzop
+Website: ${project.url}
+Depend: []
+SoftDepend: []

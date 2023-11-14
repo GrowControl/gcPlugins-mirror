@@ -1,0 +1,9 @@
+Plugin Name: ${project.name}
+Plugin Version: ${project.version}
+Commit: ${git.commit.id}
+Server Main: com.growcontrol.plugins.arduino.server.gcArduinoPlugin_Server
+Client Main: com.growcontrol.plugins.arduino.client.gcArduinoPlugin_Client
+Author: lorenzop
+Website: ${project.url}
+Depend: []
+SoftDepend: []
