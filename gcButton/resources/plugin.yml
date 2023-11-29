@@ -1,8 +1,8 @@
 Plugin Name: ${project.name}
 Plugin Version: ${project.version}
 Commit: ${git.commit.id}
-Server Main: com.growcontrol.plugins.button.server.gcButtonPlugin_Server
-Client Main: com.growcontrol.plugins.button.client.gcButtonPlugin_Client
+Server Main: com.growcontrol.plugins.button.server.gcButton_ServerPlugin
+Client Main: com.growcontrol.plugins.button.client.gcButton_ClientPlugin
 Author: lorenzop
 Website: ${project.url}
 Depend: []

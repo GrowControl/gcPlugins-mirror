@@ -1,8 +1,8 @@
 Plugin Name: ${project.name}
 Plugin Version: ${project.version}
 Commit: ${git.commit.id}
-Server Main: com.growcontrol.plugins.pi.server.gcPiPlugin_Server
-Client Main: com.growcontrol.plugins.pi.client.gcPiPlugin_Client
+Server Main: com.growcontrol.plugins.pi.server.gcPi_ServerPlugin
+Client Main: com.growcontrol.plugins.pi.client.gcPi_ClientPlugin
 Author: lorenzop
 Website: ${project.url}
 Depend: []

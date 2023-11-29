@@ -1,8 +1,8 @@
 Plugin Name: ${project.name}
 Plugin Version: ${project.version}
 Commit: ${git.commit.id}
-Server Main: com.growcontrol.plugins.climate.server.gcClimatePlugin_Server
-Client Main: com.growcontrol.plugins.climate.client.gcClimatePlugin_Client
+Server Main: com.growcontrol.plugins.climate.server.gcClimate_ServerPlugin
+Client Main: com.growcontrol.plugins.climate.client.gcClimate_ClientPlugin
 Author: lorenzop
 Website: ${project.url}
 Depend: []

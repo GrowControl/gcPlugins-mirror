@@ -1,8 +1,8 @@
 Plugin Name: ${project.name}
 Plugin Version: ${project.version}
 Commit: ${git.commit.id}
-Server Main: com.growcontrol.plugins.timer.server.gcTimerPlugin_Server
-Client Main: com.growcontrol.plugins.timer.client.gcTimerPlugin_Client
+Server Main: com.growcontrol.plugins.timer.server.gcTimer_ServerPlugin
+Client Main: com.growcontrol.plugins.timer.client.gcTimer_ClientPlugin
 Author: lorenzop
 Website: ${project.url}
 Depend: []
