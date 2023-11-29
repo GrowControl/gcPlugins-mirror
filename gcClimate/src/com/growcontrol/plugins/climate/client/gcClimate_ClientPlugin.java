@@ -1,6 +1,6 @@
 package com.growcontrol.plugins.example.client;
 
-import com.growcontrol.client.plugins.gcClientPlugin;
+import com.growcontrol.client.plugin.gcClientPlugin;
 
 
 public class gcClimate_ClientPlugin extends gcClientPlugin {

@@ -1,6 +1,6 @@
-package com.growcontrol.plugins.example.client;
+package com.growcontrol.plugins.mqtt.client;
 
-import com.growcontrol.client.plugins.gcClientPlugin;
+import com.growcontrol.client.plugin.gcClientPlugin;
 
 
 public class gcMqtt_ClientPlugin extends gcClientPlugin {
