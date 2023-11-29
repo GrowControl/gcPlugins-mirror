@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.climate.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcClimatePlugin_Server extends gcServerPlugin {
+public class gcClimate_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcClimatePlugin_Server() {
+	public gcClimate_ServerPlugin() {
 		super();
 	}
 

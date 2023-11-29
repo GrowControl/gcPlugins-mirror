@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.button.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcButtonPlugin_Server extends gcServerPlugin {
+public class gcButton_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcButtonPlugin_Server() {
+	public gcButton_ServerPlugin() {
 		super();
 	}
 

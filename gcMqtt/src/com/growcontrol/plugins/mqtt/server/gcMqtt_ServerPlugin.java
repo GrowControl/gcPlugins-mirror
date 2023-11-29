@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.mqtt.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcMqttPlugin_Server extends gcServerPlugin {
+public class gcMqtt_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcMqttPlugin_Server() {
+	public gcMqtt_ServerPlugin() {
 		super();
 	}
 

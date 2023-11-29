@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.timer.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcTimerPlugin_Server extends gcServerPlugin {
+public class gcTimer_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcTimerPlugin_Server() {
+	public gcTimer_ServerPlugin() {
 		super();
 	}
 

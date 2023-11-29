@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.pi.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcPiPlugin_Server extends gcServerPlugin {
+public class gcPi_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcPiPlugin_Server() {
+	public gcPi_ServerPlugin() {
 		super();
 	}
 

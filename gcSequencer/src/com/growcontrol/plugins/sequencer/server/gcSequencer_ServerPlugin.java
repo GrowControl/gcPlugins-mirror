@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.sequencer.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcSequencerPlugin_Server extends gcServerPlugin {
+public class gcSequencer_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcSequencerPlugin_Server() {
+	public gcSequencer_ServerPlugin() {
 		super();
 	}
 

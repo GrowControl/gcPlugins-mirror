@@ -1,13 +1,13 @@
-package com.growcontrol.plugins.example.server;
+package com.growcontrol.plugins.arduino.server;
 
 import com.growcontrol.server.plugins.gcServerPlugin;
 
 
-public class gcArduinoPlugin_Server extends gcServerPlugin {
+public class gcArduino_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcArduinoPlugin_Server() {
+	public gcArduino_ServerPlugin() {
 		super();
 	}
 
