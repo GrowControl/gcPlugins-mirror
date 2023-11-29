@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated: Wed Nov 29 02:11:42 AM EST 2023 -->
+<!-- Generated: Wed Nov 29 04:50:14 AM EST 2023 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -10,7 +10,7 @@
 	<version>0.1.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<url>https://growcontrol.com</url>
-	<description>Mqtt plugin for Grow Control</description>
+	<description>MQTT plugin for Grow Control</description>
 	<organization>
 		<name>PoiXson</name>
 		<url>https://poixson.com</url>
@@ -29,12 +29,14 @@
 		<maven-source-plugin-version>3.3.0</maven-source-plugin-version>
 		<maven-eclipse-plugin-version>2.10</maven-eclipse-plugin-version>
 		<git-commit-id-version>4.9.10</git-commit-id-version>
+		<maven-shade-plugin-version>3.4.1</maven-shade-plugin-version>
 
 		<!-- Dependencies -->
 		<common-core-version>[4.0.0,)</common-core-version>
 		<common-plugin-version>[4.0.0,)</common-plugin-version>
 		<server-version>[0.0.0,)</server-version>
 		<studio-version>[0.0.0,)</studio-version>
+		<org-eclipse-paho-client-mqttv3-version>1.2.5</org-eclipse-paho-client-mqttv3-version>
 
 	</properties>
 	<scm>
@@ -144,6 +146,26 @@
 				</configuration>
 			</plugin>
 
+			<!-- Shade Plugin -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-shade-plugin</artifactId>
+				<version>${maven-shade-plugin-version}</version>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>shade</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<dependencyReducedPomLocation>${project.basedir}/target/dependency-reduced-pom.xml</dependencyReducedPomLocation>
+					<filters>
+					</filters>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 	<dependencies>
@@ -170,6 +192,11 @@
 			<groupId>com.growcontrol</groupId>
 			<version>${studio-version}</version>
 			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<artifactId>org.eclipse.paho.client.mqttv3</artifactId>
+			<groupId>org.eclipse.paho</groupId>
+			<version>${org-eclipse-paho-client-mqttv3-version}</version>
 		</dependency>
 	</dependencies>
 </project>
