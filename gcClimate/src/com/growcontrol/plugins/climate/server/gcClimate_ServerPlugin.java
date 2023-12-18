@@ -1,14 +1,18 @@
 package com.growcontrol.plugins.climate.server;
 
+import com.growcontrol.server.gcServer;
 import com.growcontrol.server.plugins.gcServerPlugin;
+import com.poixson.plugins.xPluginManager;
+import com.poixson.plugins.xPluginYML;
 
 
 public class gcClimate_ServerPlugin extends gcServerPlugin {
 
 
 
-	public gcClimate_ServerPlugin() {
-		super();
+	public gcClimate_ServerPlugin(final gcServer server,
+			final xPluginManager<gcServerPlugin> manager, final xPluginYML yml) {
+		super(server, manager, yml);
 	}
 
 
